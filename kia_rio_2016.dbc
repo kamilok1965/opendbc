@@ -38,8 +38,6 @@ BU_: XXX
 
 BO_ 1680 Lights: 8 XXX
  SG_ NEW_SIGNAL_1 : 55|8@0+ (1,0) [0|255] "" XXX
- SG_ Lights status : 37|1@0+ (1,0) [0|15] "" XXX
- SG_ Reverse lights? : 43|1@1+ (1,0) [0|255] "" XXX
 
 BO_ 848 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 23|4@0+ (1,0) [0|15] "" XXX
@@ -49,14 +47,14 @@ BO_ 848 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_6 : 24|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_5 : 35|4@0+ (1,0) [0|15] "" XXX
 
-BO_ 544 NEW_MSG_3: 8 XXX
+BO_ 544 Brakes: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 8|4@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 15|1@0+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_4 : 23|8@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_5 : 51|14@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_6 : 48|16@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_5 : 55|16@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_7 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 23|8@0+ (1,0) [0|15] "" XXX
+ SG_ Brake pedal position? : 32|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1349 NEW_MSG_4: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|4@0+ (1,0) [0|15] "" XXX
@@ -76,10 +74,11 @@ BO_ 356 NEW_MSG_5: 8 XXX
 
 BO_ 357 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_4 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_4 : 8|8@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_5 : 51|4@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 15|16@0+ (1,0) [0|255] "" XXX
 
 BO_ 1201 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|15] "" XXX
@@ -110,28 +109,27 @@ BO_ 399 NEW_MSG_11: 8 XXX
  SG_ NEW_SIGNAL_2 : 48|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 608 NEW_MSG_12: 8 XXX
- SG_ NEW_SIGNAL_1 : 8|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 15|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 55|16@0+ (1,0) [0|255] "" XXX
 
 BO_ 1072 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|4@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 48|4@1+ (1,0) [0|255] "" XXX
 
 BO_ 497 NEW_MSG_8: 8 XXX
- SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_2 : 39|16@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_3 : 55|16@0+ (1,0) [0|65535] "" XXX
-
-BO_ 790 Also speed?: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_2 : 15|16@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 31|16@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_4 : 47|8@0+ (1,0) [0|65535] "" XXX
- SG_ Also speed? : 55|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 161 NEW_MSG_13: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 688 NEW_MSG_14: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 31|16@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 23|16@0+ (1,0) [0|255] "" XXX
 
 
 
