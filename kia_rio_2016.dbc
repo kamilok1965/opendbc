@@ -38,6 +38,7 @@ BU_: XXX
 
 BO_ 1680 Lights: 8 XXX
  SG_ NEW_SIGNAL_1 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ Lights status : 37|6@0+ (1,0) [0|3] "" XXX
 
 BO_ 848 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 23|4@0+ (1,0) [0|15] "" XXX
@@ -52,9 +53,8 @@ BO_ 544 Brakes: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|4@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 15|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_5 : 51|14@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_6 : 48|16@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 23|8@0+ (1,0) [0|15] "" XXX
- SG_ Brake pedal position? : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ Steering  : 48|16@1- (1,0) [0|255] "" XXX
 
 BO_ 1349 NEW_MSG_4: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|4@0+ (1,0) [0|15] "" XXX
